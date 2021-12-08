@@ -1,9 +1,15 @@
+body{
+    margin: 0;
+}
+
 .body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
-.intro {
+.intro, .footer {
     background-color: #1F2937;
 }
 
@@ -40,4 +46,36 @@
 .about img {
     color: rgba(255, 255, 255, 0.514);
     background-color: grey;
+}
+
+button, .call {
+    background-color: #3882F6;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p { 
+    color: #1F2937;
+    text-align: right;
+}
+
+.footer { 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
