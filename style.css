@@ -1,3 +1,43 @@
 .body {
     display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    background-color: #1F2937;
+}
+
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header a:hover {
+    background-color: rgba(16, 191, 245, 0.74);
+}
+
+.header a, .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.initial {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.about img {
+    color: rgba(255, 255, 255, 0.514);
+    background-color: grey;
 }
